@@ -8,14 +8,13 @@ export function Profile({ showProfileData = true }: ProfileProps) {
     <Flex align="center">
       { showProfileData && (
         <Box mr="4" textAlign="right">
-          <Text>Diego Fernandes</Text>
+          <Text>Bruno Vieira</Text>
           <Text color="gray.300" fontSize="small">
-            diego.schell.f@gmail.com
+            bruno@gmail.com
           </Text>
         </Box>
       )}
-
-      <Avatar size="md" name="Diego Fernandes" src="https://github.com/diego3g.png" />
+      <Avatar size="md" name="Diego Fernandes" src="https://github.com/wbrunovieira.png" />
     </Flex>
   );
 }
